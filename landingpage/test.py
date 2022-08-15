@@ -6,7 +6,7 @@ try:
                                          user='training',
                                          password='training')
 
-    sql_select_Query = "select * from Laptop"
+    sql_select_Query = "select * from retail_db"
     cursor = connection.cursor()
     cursor.execute(sql_select_Query)
     # get all records
