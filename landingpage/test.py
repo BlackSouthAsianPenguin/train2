@@ -14,10 +14,10 @@ try:
 
     print("\nPrinting each row")
     for row in records:
-        print("Id = ", row[0], )
-        print("Name = ", row[1])
-        print("Price  = ", row[2])
-        print("Purchase date  = ", row[3], "\n")
+        print("Cattagories = ", row[0], )
+        print("Customers = ", row[1])
+        print("departments  = ", row[2])
+        print("orders  = ", row[3], "\n")
 
 except mysql.connector.Error as e:
     print("Error reading data from MySQL table", e)
