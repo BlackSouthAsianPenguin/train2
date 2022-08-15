@@ -2,8 +2,7 @@ import mysql.connector
 
 try:
     connection = mysql.connector.connect(host='188.166.221.246',
-                                         database='retail_db',
-                                         user='training',
+                                        user='training',
                                          password='training')
 
     sql_select_Query = "select * from retail_db"
